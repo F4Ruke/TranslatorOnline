@@ -1,6 +1,6 @@
 # TranslatorOnline
 
-# Version 0.0.1
+# Version 0.0.2
 
 # The program translates text in the input field
 
