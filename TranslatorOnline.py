@@ -27,6 +27,16 @@ def translate():
     write(translator.translate(paste()).text)
 
 
-if __name__ == "__main__":
-    add_hotkey("f12", translate)
+def translate_paste():
+    """Вставка скопированного и переведеннго текста"""
+    write(translator.translate(paste(), dest="ru").text)
+
+
+def main():
+    add_hotkey("ctrl + f12", translate)
+    add_hotkey("ctrl + f11", translate_paste)
     wait()
+
+
+if __name__ == "__main__":
+    main()
