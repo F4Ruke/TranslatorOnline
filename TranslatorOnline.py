@@ -33,8 +33,8 @@ def translate_paste():
 
 
 def main():
-    add_hotkey("ctrl + f12", translate)
-    add_hotkey("ctrl + f11", translate_paste)
+    add_hotkey("f12", translate)
+    add_hotkey("f11", translate_paste)
     wait()
 
 
