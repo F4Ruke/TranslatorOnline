@@ -1,4 +1,4 @@
-# TranslatorOnline
+# TranslatorOnline (RU)
 
 # Version 0.0.2
 
